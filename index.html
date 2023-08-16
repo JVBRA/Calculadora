@@ -7,17 +7,20 @@
     <title>Calculadora</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Calculadora de IMC</h1>
-        <div class="input_area">
-            <h2>Altura</h2>
-            <input type="number">
+    <div class="area">
+        <div class="container">
+            <h1>Calculadora de IMC</h1>
+            <div class="input_area">
+                <h2>Altura</h2>
+                <input id="height" type="number"placeholder="cm">
+            </div>
+            <div class="input_area">
+                <h2>Peso</h2>
+                <input id="weight" type="number"placeholder="Kg">
+            </div>
+            <button onclick="calculate()">Calcular</button>
+            <textarea id="text_area" cols="30" rows="3"></textarea>
         </div>
-        <div class="input_area">
-            <h2>Peso</h2>
-            <input type="number">
-        </div>
-        <button>Calcular</button>
     </div>
     
 

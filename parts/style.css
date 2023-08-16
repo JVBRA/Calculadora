@@ -38,3 +38,21 @@ button:hover{
     transition: 0.5s;
     cursor: pointer;
 }
+.area{
+    display: flex;
+    justify-content: center;
+}
+#text_area{
+    margin-top: 5%;
+    background-color: var(--tree);
+    border-radius: 3px;
+    border: none;
+    color: var(--thus);
+}
+#text_area:hover{
+    background-color: transparent;
+    color: var(--thus);
+    border: solid 0.5px var(--thus);
+    transition: 0.5s;
+
+}
